@@ -1,0 +1,74 @@
+.main{
+
+  margin: 2em;
+
+  .container{
+    margin: auto;
+    width: 50%;
+
+    .current-sentence{
+      text-align: center;
+      font-size: 2em;
+      height: 3em;
+    }
+
+    .sentiment{
+      margin-top: 1em;
+      text-align: center;
+
+      .positive,
+      .negative,
+      .neutral{
+        display: block;
+        position: relative;
+        .text{
+          display: block;
+        }
+      }
+      
+    }
+
+    .feedback{
+      margin-top: 2em;
+      text-align: center;
+      .text{
+        display: block;
+      }
+      .buttons{
+        margin-top: 0.5em;
+        display: inline-block;
+        .button{
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .reviews{
+    .positive,
+    .negative,
+    .neutral{
+      display: inline-block;
+      .text{
+        margin-left: 0.5em;
+      }
+    }
+
+    .cell{
+      background-color: #e6e6e6;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  .positive .svg-inline--fa{
+    color: #fbd043;
+
+  }
+  .negative .svg-inline--fa{
+    color: red;
+
+  }
+  .neutral .svg-inline--fa{
+    color: grey;
+  }
+}

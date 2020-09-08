@@ -1,0 +1,20 @@
+export const SentencesData =[ 
+    { text: "I ate dinner.", sentiment: true },
+    { text: "We had a three-course meal.", sentiment: false },
+    { text:"Brad came to dinner with us.", sentiment: null },
+    { text: "He loves fish tacos.", sentiment: false },
+    { text: "In the end, we all felt like we ate too much.", sentiment: false },
+    { text: "We all agreed; it was a magnificent evening.", sentiment: null },
+    { text: "I hope that, when I've built up my savings, I'll be able to travel to Mexico.", sentiment: true },
+    { text: "Did you know that, along with gorgeous architecture, it's home to the largest tamale?", sentiment: true },
+    { text: "Wouldn't it be lovely to enjoy a week soaking up the culture?", sentiment: true },
+    { text: "Oh, how I'd love to go!", sentiment: true },
+    { text: "Of all the places to travel, Mexico is at the top of my list.", sentiment: true },
+    { text: "Would you like to travel with me?", sentiment: null },
+    { text: "Isn't language learning fun?", sentiment: true },
+    { text: "There is so much to understand.", sentiment: false },
+    { text: "I love learning!", sentiment: true },
+    { text: "Sentences come in many shapes and sizes.", sentiment: true },
+    { text: "Nothing beats a complete sentence.", sentiment: false },
+    { text: "Once you know all the elements, it's not difficult to pull together a sentence.", sentiment: null }
+]
